@@ -89,13 +89,7 @@ df.head()
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+    
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -289,7 +283,6 @@ print("No of catagorica Features ",len(catagorical_features.columns))
 sns.distplot(df['SalePrice']);
 ```
 
-    /home/junaid/.local/lib/python3.8/site-packages/seaborn/distributions.py:2551: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
       warnings.warn(msg, FutureWarning)
 
 
@@ -348,13 +341,7 @@ missing_data.head(20)
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+    
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -486,13 +473,6 @@ clean_data.quantile([0.0, 0.01, 0.05, 0.10, 0.25, 0.50, 0.75, 0.90, 0.95, 0.99, 
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -654,13 +634,7 @@ quant_df.head()
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+    
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -848,5 +822,3 @@ print(est2.summary())
     Kurtosis:                       5.570   Cond. No.                         6.30
     ==============================================================================
     
-    Notes:
-    [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
